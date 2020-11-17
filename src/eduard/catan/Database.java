@@ -8,7 +8,7 @@ public class Database {
     private String databaseName = "catandb";
     private String url = "jdbc:mysql://localhost:3306/" + databaseName;
     private String username = "root";
-    private String password = encryption("Lqfklvrduhd5;");
+    private String password = encryption("-------");
     private static Database instance = new Database();
     private Database() {
 
